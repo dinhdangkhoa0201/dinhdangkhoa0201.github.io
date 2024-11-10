@@ -1,0 +1,31 @@
+/* Custom styles */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.image-card {
+    width: 360px;
+}
+
+.card-container {
+    display: flex; /* Sử dụng Flexbox để sắp xếp các thẻ theo chiều ngang */
+    overflow-x: auto; /* Thêm thanh cuộn ngang */
+    gap: 20px; /* Khoảng cách giữa các thẻ */
+    padding: 20px 0; /* Padding dọc cho container */
+}
+
+.card {
+    min-width: 200px; /* Đảm bảo mỗi thẻ có chiều rộng cố định */
+    flex-shrink: 0; /* Ngăn thẻ bị thu nhỏ khi cuộn */
+}
+
+.card-width {
+    width: 20rem;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}

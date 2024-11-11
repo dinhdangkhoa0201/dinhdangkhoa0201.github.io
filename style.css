@@ -24,8 +24,26 @@
     width: 20rem;
 }
 
+#design-san-pham-rieng .container {
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+#contact-info {
+    padding: 30px 40px;
+}
+
+#form-section {
+    padding: 30px 40px;
+}
+
 .footer {
     background-color: #343a40;
     color: white;
     padding: 20px 0;
+}
+
+#footer-logo {
+    height: 120px;
+    width: 120px;
 }

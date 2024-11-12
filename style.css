@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth; /* Enable smooth scroll */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +17,7 @@ body, input, button, option, textarea, label, select, legend, h1, h2, h3, h4, h5
 a {
     text-decoration: none;
     transition: .2s;
-    color: #288ad6;
+    color: #fff;
 }
 
 p, h2 {
@@ -273,6 +277,7 @@ body {
     padding-top: 0;
     margin-top: 230px;
     background-color: #f2f4f7;
+    padding-bottom: 50px;
 }
 
 .image-card {
@@ -297,7 +302,7 @@ body {
 }
 
 #design-san-pham-rieng .container {
-    background-color: antiquewhite;
+    background-color: #a6cfff82;
     border-radius: 25px;
 }
 
@@ -390,15 +395,51 @@ body {
 }
 
 .introduce {
-    padding: 0 165px;
+    padding: 50px 165px;
     text-align: center;
 }
 
+.introduce-img-wrapper {
+    height: 500px;
+    width: 400px;
+}
+
+.introduce-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 115px 5px 5px 5px;
+}
+
+.quilting-viet-wrapper {
+    text-align: center;
+    position: relative;
+    height: 150px;
+}
+
+.quilting-viet-wrapper .quilting-viet-title {
+    display: inline-block;
+    background-color: #d9d9dd;
+    padding: 35px 170px;
+    color: #000;
+    font-size: 3.5em;
+}
+
+.quilting-viet-title {
+    position: absolute;
+    top: -50px;
+    left: 250px;
+}
+
+.original-value-img-wrapper {
+    height: 300px;
+    width: 400px;
+}
+
 .original-value-img {
-    height: 400px;
-    width: 500px;
-    object-fit: contain;
-    border-radius: 25px !important;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 25px;
+    border: 2px solid transparent;
 }
 
 .image-container {

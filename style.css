@@ -325,7 +325,7 @@ body {
 .footer {
     clear: both;
     border-top: 1px solid #e2e2e2;
-    background-color: #fff;
+    background-color: #2a83e9;
     position: relative;
 }
 
@@ -347,20 +347,41 @@ body {
 .footer__top > img {
     height: 120px;
     width: 120px;
+    border-radius: 12px;
 }
 
 .footer__bottom img {
-    height: 120px;
-    width: 120px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .clearfix {
     display: block;
 }
 
+.footer__col p strong {
+    font-size: 21px;
+}
+
 .f-list__content {
     line-height: 21px;
     margin-top: 10px;
+    font-size: 18px;
+}
+
+.f-list__content span {
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-image {
+    height: 200px;
+    width: 200px;
+    text-align: end;
+}
+
+.footer-image img {
+    border-radius: 8px;
 }
 
 .divider {

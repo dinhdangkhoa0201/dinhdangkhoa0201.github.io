@@ -295,10 +295,34 @@ body {
     min-width: 200px; /* Đảm bảo mỗi thẻ có chiều rộng cố định */
     flex-shrink: 0; /* Ngăn thẻ bị thu nhỏ khi cuộn */
     border-radius: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.75);
 }
 
 .card-width {
-    width: 20rem;
+    width: 250px;
+}
+
+.card-image-wrapper {
+    height: 250px;
+    width: 250px;
+}
+
+.card-image {
+    /*max-height: 100%;*/
+    /*max-width: 100%;*/
+    height: 280px;
+}
+
+.card-button {
+    margin-top: auto;
+}
+
+.price {
+    font-size: 16px;
+}
+
+h1.card-title {
+    font-size: 18px;
 }
 
 #design-san-pham-rieng .container {

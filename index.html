@@ -15,43 +15,56 @@
 </head>
 
 <body>
-<header class="header v2024 sticky">
-    <div class="header__top">
-        <div>
-            <h3 class="display-4" style="font-size: 1.75rem; margin-top: 16px; color: #fff">Quilting
-                Viet</h3>
-        </div>
-        <div>
-            <form class="header__search">
-                <button type="submit" aria-label="button suggest search">
-                    <i class="icon-search"></i>
-                </button>
-                <input type="text" class="input-search" maxlength="100" name="key"
-                       autocomplete="off" placeholder="Bạn cần tìm gì?"/>
-            </form>
-            <a href="#" class="header__cart" id="cart-box">
-                <div class="box-cart">
-                    <i class="iconnewglobal-whitecart"></i>
-                    <span class="cart-number"></span>
+<header class="header container-header-wrapper">
+    <div class="container-header-wrapper header-with-search-wrapper">
+        <div class="container-header header-with-search">
+            <a class="header-with-search__logo-section" href="/">
+                <div class="header-with-search__logo-wrapper">
+                    <img src="assets/logo-brand.jpg" class="shopee-svg-icon header-with-search__shopee-logo icon-shopee-logo">
                 </div>
-                <span>Giỏ hàng</span>
             </a>
+            <div class="header-with-search__search-section">
+                <form role="search" autocomplete="off" class="shopee-searchbar">
+                    <div class="shopee-searchbar__main">
+                        <div class="shopee-searchbar-input">
+                            <input class="shopee-searchbar-input__input" maxlength="128" placeholder="Shopee bao ship 0Đ - Đăng ký ngay!" autocomplete="off" aria-autocomplete="list" aria-controls="shopee-searchbar-listbox" aria-expanded="false" role="combobox" value="">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-solid-primary btn--s btn--inline shopee-searchbar__search-button">
+                        <svg height="19" viewBox="0 0 19 19" width="19" class="shopee-svg-icon">
+                            <g fill-rule="evenodd" stroke="none" stroke-width="1">
+                                <g transform="translate(-1016 -32)">
+                                    <g>
+                                        <g transform="translate(405 21)">
+                                            <g transform="translate(611 11)">
+                                                <path d="m8 16c4.418278 0 8-3.581722 8-8s-3.581722-8-8-8-8 3.581722-8 8 3.581722 8 8 8zm0-2c-3.3137085 0-6-2.6862915-6-6s2.6862915-6 6-6 6 2.6862915 6 6-2.6862915 6-6 6z"></path>
+                                                <path d="m12.2972351 13.7114222 4.9799555 4.919354c.3929077.3881263 1.0260608.3842503 1.4141871-.0086574.3881263-.3929076.3842503-1.0260607-.0086574-1.414187l-4.9799554-4.919354c-.3929077-.3881263-1.0260608-.3842503-1.4141871.0086573-.3881263.3929077-.3842503 1.0260608.0086573 1.4141871z"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <div class="header-with-search__cart-wrapper">
+                <div class="stardust-popover">
+                    <div role="button" class="stardust-popover__target">
+                        <div class="cart-drawer-container">
+                            <a class="cart-drawer flex v-center" id="cart_drawer_target_id">
+                                <svg viewBox="0 0 26.6 25.6" class="shopee-svg-icon navbar__link-icon icon-shopping-cart-2">
+                                    <title>Shopping Cart Icon</title>
+                                    <polyline fill="none" points="2 1.7 5.5 1.7 9.6 18.3 21.2 18.3 24.6 6.1 7 6.1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"></polyline>
+                                    <circle cx="10.7" cy="23" r="2.2" stroke="none"></circle>
+                                    <circle cx="19.7" cy="23" r="2.2" stroke="none"></circle>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="header__main">
-        <div class="btn-group">
-            <button type="button" class="btn btn-primary btn-first">
-                <a href="#bo-su-tap-he"># Sản phẩm</a>
-            </button>
-            <button type="button" class="btn btn-primary">
-                <a href="#design-san-pham-rieng"># Design Sản phẩm riêng</a>
-            </button>
-            <button type="button" class="btn btn-primary btn-last">
-                <a href="#about-quilting-view"># Về Quitling Việt</a>
-            </button>
-        </div>
-    </div>
 </header>
 
 <div class="body-home">
@@ -364,7 +377,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xm-12">
                         <div id="contact-info">
-                            <img id="contact-logo" class="img-fluid" src="assets/logo.png">
+                            <img id="contact-logo" class="img-fluid" src="assets/logo.jpg">
                             <p>Bạn có thể liên hệ với chúng tôi bằng bất cứ
                                 Kênh nào mà bạn có thể trao đổi</p>
                             <p><span class="material-icons">location_on</span> 97 Đường Nguyễn Chí
